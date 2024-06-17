@@ -4,7 +4,7 @@ int main()
 {
     char name[10];
     char count=0;
-    printf("enter name");
+    printf("enter name \n");
     scanf("%s",&name);
     for(int x= strlen(name); x>=0; x--)
     {
